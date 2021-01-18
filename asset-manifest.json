@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef04e7e4.chunk.css",
+    "main.js": "/static/js/main.a4752be9.chunk.js",
+    "main.js.map": "/static/js/main.a4752be9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ea694074.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ea694074.js.map",
+    "static/js/2.61e6ce5c.chunk.js": "/static/js/2.61e6ce5c.chunk.js",
+    "static/js/2.61e6ce5c.chunk.js.map": "/static/js/2.61e6ce5c.chunk.js.map",
+    "static/js/3.966099cf.chunk.js": "/static/js/3.966099cf.chunk.js",
+    "static/js/3.966099cf.chunk.js.map": "/static/js/3.966099cf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ef04e7e4.chunk.css.map": "/static/css/main.ef04e7e4.chunk.css.map",
+    "static/js/2.61e6ce5c.chunk.js.LICENSE.txt": "/static/js/2.61e6ce5c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/Lato-Regular.bbb4295f.woff",
+    "static/media/Home.css": "/static/media/covid-19-background.12166993.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea694074.js",
+    "static/js/2.61e6ce5c.chunk.js",
+    "static/css/main.ef04e7e4.chunk.css",
+    "static/js/main.a4752be9.chunk.js"
+  ]
+}
