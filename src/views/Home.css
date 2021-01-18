@@ -1,0 +1,176 @@
+
+/* CSS for animation */
+/* Rotate + fade in animation */
+@keyframes fadeInImage {
+	0% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        transform: rotate(180deg);
+	}
+	100% {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+
+	}
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInImage;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+}
+
+/* Basic CSS */
+#home {
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../assets/images/covid-19-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home-row {
+    margin: 0 4rem 0 4rem;
+}
+#home-row, .center-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#asia-map {
+    width: 100%;
+    border-radius: 50%;
+}
+#covid-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#covid-table thead {
+    background-color: lightslategrey;
+}
+#covid-table thead tr th {
+    font-family: 'Lato Bold';
+}
+#covid-table .odd-row {
+    background-color: aliceblue;
+}
+#covid-table .even-row {
+    background-color: lightgrey;
+}
+#symptoms-row {
+    margin: 0;
+}
+#sort-table-text {
+    font-family: 'Lato Light';
+    font-weight: bold;
+    margin: 0 auto 3rem auto;
+    text-decoration: underline;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.section-odd, .section-even {
+    width: 100%;
+    min-height: 100vh;
+}
+.section-even {
+    background-color: lightsteelblue;
+}
+.prevention-second-row {
+    margin: 0 6rem 1rem 6rem;
+}
+.confirmed-text h1, .recovered-text h1, .deaths-text h1 {
+    line-height: 5rem;
+    font-family: 'Sans Serif';
+    font-weight: bold;
+    text-shadow: 3px 3px 5px lightgrey;
+}
+.recovered-text h1, .recovered-col {
+    color: darkgreen;
+}
+.deaths-text h1, .deaths-col {
+    color: firebrick;
+}
+.default-margin {
+    margin: 0 2rem 0 2rem;
+}
+
+@media (max-width: 767px) {
+    #home {
+        margin-top: 0;
+    }
+    #home-row {
+        margin: 0 1rem 0 1rem;
+    }
+    #home-row div .row {
+        padding: 0 1rem;
+    }
+    #asia-map {
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+    #sort-table-text {
+        margin-bottom: 1rem;
+    }
+    .confirmed-text h1, .recovered-text h1, .deaths-text h1 {
+        line-height: 3rem;
+        font-size: 1.4rem;
+    }
+    .table-responsive {
+        overflow-x: auto;
+        margin: 0 2rem 2rem 2rem;
+        padding: 0;
+    }
+    .prevention-second-row {
+        margin: 0;
+    }
+    .default-margin {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #home-row {
+        margin: 0 2rem 0 2rem;
+    }
+    #symptoms-row {
+        margin: 0 2rem 0 2rem;
+    }
+    .confirmed-text h1, .recovered-text h1, .deaths-text h1 {
+        line-height: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .prevention-second-row {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    #symptoms-row {
+        margin: 0 2rem 0 2rem;
+    }
+    .confirmed-text h1, .recovered-text h1, .deaths-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1365px) {
+    .section-odd, .section-even {
+        height: auto;
+        min-height: fit-content;
+    }
+}
+
+@media (min-width: 1920px) {
+    #main-page {
+        max-width: 1920px;
+    }
+    .section-odd, .section-even {
+        height: auto;
+        min-height: fit-content;
+    }
+}

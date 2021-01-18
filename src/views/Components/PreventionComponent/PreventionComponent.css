@@ -1,0 +1,57 @@
+.prevention-card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: calc(.25rem + 30px);
+    border-top-right-radius: calc(.25rem + 30px);
+}
+.card-img-top {
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: calc(.25rem + 30px);
+    border-top-right-radius: calc(.25rem + 30px);
+}
+.card-title {
+    margin-bottom: .4rem;
+}
+.card-body {
+    padding: 0.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #prevention .row .col-md-6 {
+        padding: 0;
+    }
+    .card-body {
+        min-height: 155px;
+    }
+    .card-img-top {
+        height: 130px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+    #prevention .row .col-md-6 {
+        padding: 0;
+    }
+    .card-body {
+        min-height: 155px;
+    }
+    .card-img-top {
+        height: 130px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .card-body {
+        min-height: 135px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .card-body {
+        min-height: 110px;
+    }
+}

@@ -1,0 +1,43 @@
+.navbar {
+    padding: 0.25rem 1rem;
+}
+
+.navbar-bg {
+    background-color: darkslateblue;
+}
+
+.navbar .navbar-brand:hover {
+    font-family: 'Lato Bold';
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-list li {
+    float: right;
+}
+
+.navbar-list li a {
+    display: block;
+}
+
+.navbar-list .nav-link {
+    color: white;
+}
+
+.navbar-list .nav-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        position: initial;
+    }
+    .navbar-list li {
+        float: none;
+    }
+}
