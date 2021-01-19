@@ -15,8 +15,4 @@ https://www.freepptbackgrounds.net/wp-content/uploads/2020/03/Free-Coronavirus-P
 https://www.cdc.gov/coronavirus/2019-ncov/downloads/stop-the-spread-of-germs-11x17-en.pdf
 
 ### COVID-19 Symptoms
-<<<<<<< HEAD
 https://www.cdc.gov/coronavirus/2019-ncov/downloads/COVID19-symptoms-24x36-en.pdf
-=======
-https://www.cdc.gov/coronavirus/2019-ncov/downloads/COVID19-symptoms-24x36-en.pdf
->>>>>>> 4a05d6fe5e788281c02444a64e958ddbe9b7b711
